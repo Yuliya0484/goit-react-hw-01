@@ -15,4 +15,5 @@
   text-align: center;
   justify-content: center;
   background-color: azure;
+  width: -webkit-fill-available;
 }
