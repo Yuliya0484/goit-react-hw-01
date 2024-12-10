@@ -20,5 +20,5 @@ const App = () => {
     </>
   );
 };
-FriendList;
+//FriendList;
 export default App;
