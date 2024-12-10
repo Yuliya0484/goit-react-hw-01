@@ -1,0 +1,14 @@
+.name {
+  font-size: xxx-large;
+}
+
+.status {
+  font-size: 18px;
+
+  &.online {
+    color: green;
+  }
+  &.offline {
+    color: red;
+  }
+}
