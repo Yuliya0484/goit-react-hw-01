@@ -5,10 +5,10 @@
   margin-top: 50px;
   text-align: center;
 }
-tr:nth-child(odd) {
+tr.table-body:nth-child(odd) {
   background-color: darkgray;
 }
-tr:nth-child(even) {
+tr.table-body:nth-child(even) {
   background-color: whitesmoke;
 }
 .transaction-history th,
@@ -18,4 +18,8 @@ tr:nth-child(even) {
 }
 .type-text {
   text-transform: capitalize;
+}
+tr.accent-head {
+  background-color: rgb(34, 26, 26);
+  color: white;
 }
